@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+*.Rproj
+.DS_Store
+Thumbs.db
+
+# Raw data is not redistributable
+data/raw/*
+!data/raw/.gitkeep
+
+# Synthetic demo output
+outputs_demo/
